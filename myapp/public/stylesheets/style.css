@@ -71,10 +71,11 @@ h1 {
   text-align: center;
 }
 #myCarousel {
-  width: 70%;
+  width: 60%;
   height: 40%;
   float: left;
-  margin-left: 15%;
+  margin-left: 20%;
+  margin-top: 5%;
 } 
 h2, h4 {
   text-align: center;
@@ -85,9 +86,32 @@ h2, h4 {
 	background-image: url('http://localhost:3000/images/CN_logo.png');
 	background-repeat: no-repeat;
 	text-align: center;
+	background-position: center;
 }
-#CN_logo {
-	position: relative;
-	top: 15px;
-	left: 45%;
+.item {
+	width: 100%;
+	height: 350px;
+}
+.background_img {
+	width: 55%;
+	height: 400px;
+
+	background-image: url('http://localhost:3000/images/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 325px;
+}
+#subscribe_button {
+    position:absolute;
+    transition: .5s ease;
+    top: 325px;
+    right: 5%;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.3em;
+    border-radius: 12px;
+    padding: 5px 25px;
+    box-shadow: 4px 3px 2px lightgrey;
 }

@@ -1,7 +1,9 @@
 extends layout
 
 block content
-  div#myCarousel.carousel-slide(data-ride='carousel')
+  div.background_img
+    //- img(src='http://localhost:3000/images/background.png')#background_img
+  div#myCarousel.carousel.slide(data-ride='carousel')
     ol.carousel-indicators
       li.target(data-target='#myCarousel', data-slide-to='0').active
       li.target(data-target='#myCarousel', data-slide-to='1')
@@ -9,16 +11,18 @@ block content
       li.target(data-target='#myCarousel', data-slide-to='3')
     div.carousel-inner(role='listbox')
       div.item.active
-        img(src='http://res.cloudinary.com/blak3nick/image/upload/v1464365982/dark_forest_fog_za9jss.jpg')
+        img(src='http://localhost:3000/images/beach.jpg')
       div.item
-        img(src='http://res.cloudinary.com/blak3nick/image/upload/v1464292865/beach_with_rocks_hvna0b.jpg')
+        img(src='http://localhost:3000/images/forest.jpg')
       div.item
-        img(src='http://res.cloudinary.com/blak3nick/image/upload/v1464292846/winter_2_gxg3mh.jpg')
+        img(src='http://localhost:3000/images/tree.jpg')
       div.item
-        img(src='http://res.cloudinary.com/blak3nick/image/upload/v1464292827/rain_mjyt4f.jpg')
+        img(src='http://localhost:3000/images/winter.jpg')
       a.left.carousel-control(href='#myCarousel', role='button', data-slide='prev')
         span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
         span.sr-only Previous
       a.right.carousel-control(href='#myCarousel', role='button', data-slide='next')
         span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
         span.sr-only Next
+  div.subscribe_button
+    button#subscribe_button Subscribe
