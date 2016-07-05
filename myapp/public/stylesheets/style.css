@@ -1,8 +1,81 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+* {
+  font-family: 'Lato', sans-serif;
+  color: black;
 }
-
-a {
-  color: #00B7FF;
+header{
+  width: 100%;
+  height: 250px;
+/*   background-image: url('http://res.cloudinary.com/blak3nick/image/upload/v1467640055/Curt_Nicholson_Backdrop_dlwklb.png'); */
+  background-size: cover;
+}
+.first {
+  
+}
+nav {
+  border-style: solid;
+  border-width: 3px 0px;
+  top: 200px;
+  width: 100%;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+ 
+  
+}
+ul.topnav li {float: left;}
+ul.topnav li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 90px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    
+}
+ul.topnav li a:hover 
+{background-color: #aaa;}
+ul.topnav li.icon 
+{display: none;}
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline;
+  }
+}
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+  	float: left;
+  	padding: 1px;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    float: none;
+    display: inline;
+    padding: 1px;
+  }
+}
+.icon {
+  padding: 0px;
+}
+h1 {
+  text-align: center;
+}
+#myCarousel {
+  width: 70%;
+  height: 40%;
+  float: left;
+  margin-left: 15%;
+} 
+h2, h4 {
+  text-align: center;
 }
