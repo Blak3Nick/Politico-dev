@@ -96,11 +96,11 @@ h2, h4 {
 	width: 55%;
 	height: 400px;
 
-	background-image: url('http://localhost:3000/images/background.png');
+	background-image: url('http://localhost:3000/images/Indiana_Outline.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
-	top: 325px;
+	top: 625px;
 }
 #subscribe_button {
     position:absolute;
