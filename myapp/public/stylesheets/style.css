@@ -126,3 +126,15 @@ h2, h4 {
     padding: 5px 25px;
     box-shadow: 4px 3px 2px lightgrey;
 }
+.polling_place {
+
+  max-height: 30%;
+  max-width: 30%;
+}
+#polling_place {
+  max-height: 22%;
+  max-width: 22%;
+  position: absolute;
+  top: 650px;
+  right: 5%;
+}
