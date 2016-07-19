@@ -102,7 +102,7 @@ h2, h4 {
 }
 .item {
 	width: 100%;
-	height: 350px;
+	height: 40%;
 }
 .background_img {
 	width: 35%;
@@ -137,4 +137,49 @@ h2, h4 {
   position: absolute;
   top: 850px;
   right: 5%;
+}
+.polling_place_text {
+  position: absolute;
+  right: 3%;
+  top: 820px;
+  font-size: 1.3em;
+}
+.maintext {
+  position: absolute;
+  top: 900px;
+  margin: 15px, 30px;
+
+
+}
+.indexpara {
+  margin: 10px 27%;
+}
+#NAME {
+  text-align: left;
+  margin-bottom: 15px; 
+}
+@media screen and (max-width:680px) {
+  .indexpara {
+  margin: 10px 5%;
+  }
+  .item {
+  width: 100%;
+  height: 100%;
+  }
+  #myCarousel {
+  width: 94%;
+  height: 70%;
+  margin: 10px 3%; 
+  }
+  .polling_place {
+    position: absolute;
+    top: 5%;
+    width: 70%;
+    margin: 1px 15%;
+  }
+  .polling_place_text {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.1em;
+}
 }
