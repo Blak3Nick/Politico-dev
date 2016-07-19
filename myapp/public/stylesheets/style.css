@@ -106,11 +106,11 @@ h2, h4 {
 }
 .background_img {
 	width: 35%;
-	height: 200px;
+	height: 100%;
 
 	background-image: url('http://localhost:3000/images/Indiana_Outline.png');
 	background-repeat: no-repeat;
-	background-size: cover;
+	
 	position: absolute;
 	top: 425px;
 }
@@ -130,6 +130,7 @@ h2, h4 {
 
   max-height: 30%;
   max-width: 30%;
+
 }
 #polling_place {
   max-height: 22%;
@@ -148,7 +149,9 @@ h2, h4 {
   position: absolute;
   top: 900px;
   margin: 15px, 30px;
-
+  background-image: url('http://localhost:3000/images/Libertarian_Party.png');
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
 .indexpara {
@@ -182,4 +185,7 @@ h2, h4 {
   text-align: center;
   font-size: 1.1em;
 }
+  .background_img{
+  background-image: none;
+  }
 }
