@@ -101,7 +101,7 @@ h2, h4 {
   margin-bottom: -2%;
 }
 .second_img {
-  background-image: url('http://localhost:3000/images/IndianaGray.png');
+  background-image: url('http://localhost:3000/images/indiana.svg');
   background-repeat: no-repeat;
   width: 33%;
   height: 33%;
