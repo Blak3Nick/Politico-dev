@@ -9,21 +9,30 @@ html
     script(src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous")
     script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')
     script(src='/javascripts/main.js')
-  header
-    div.main_img
-    div.second_img
-  div.navbar_div 
-    nav(role='navigation')
-      ul.topnav
-        li.first
-          a(href='/issues') Issues  
-        li
-          a(href='/why') Why Liberterian 
-        li
-          a(href='/contact') Contact
-        li 
-          a(href='/support') Support
-        li.icon
-          a(href='javascript: void(0);', onclick='myFunction()') &#9776                                                                 
+    
+ 
+    nav(role='navigation').navbar.navbar-default.navbar-right
+      div.container-fluid
+        div.navbar-header
+          ul.nav.navbar-nav.navbar-left.topnav
+            li
+              a(href='#' target='_blank')
+                img(src='http://localhost:3000/images/facebook-square.png')#face
+            li
+              a(href='#' target='_blank')
+                img(src='http://localhost:3000/images/Twitter-square.png')#twit
+              
+          ul.nav.navbar-nav.navbar-right.topnav
+            li
+              a(href='/issues') Blog 
+            li
+              a(href='/contact') Contact
+            li 
+              a(href='/support') Support
+            li.icon
+              a(href='javascript: void(0);', onclick='myFunction()') &#9776 
+
+
+                                                                
   body
     block content
