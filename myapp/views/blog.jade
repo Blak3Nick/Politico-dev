@@ -1,8 +1,15 @@
 extends layout
 
 block content
-	h1 Information
-	div
-		article.items
+	div.container-fluid
+		div.row
+			h1.col-md-2.col-md-offset-4 Title of Blog
+		div.row
+			h4.col-md-2.col-md-offset-4 30 July 2016
+		div.row
+			div.col-md-4.col-md-offset-3
+				img(src='http://localhost:3000/images/dad_black-white.png')#blogpic
+		div.logo.col-md-2.col-md-offset-10
+			img(src='http://localhost:3000/images/Favicon.svg')#bloglogo
 		
 		
