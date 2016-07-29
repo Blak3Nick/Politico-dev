@@ -208,3 +208,8 @@ h2, h4 {
 .trianglepic {
   width: 100%;
 }
+.down {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+}
