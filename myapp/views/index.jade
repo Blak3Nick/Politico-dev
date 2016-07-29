@@ -1,12 +1,10 @@
 extends layout
 
 block content
-  body
+  body.container-fluid
     div.splashdiv
       img(src='http://localhost:3000/images/Curt-splash.png').splash
 
-  div.subscribe_button
-    button#subscribe_button Subscribe
   div.polling_place
     p.polling_place_text Find Your Polling Place
     a(href='https://www.headcount.org/find-your-polling-place/') 
