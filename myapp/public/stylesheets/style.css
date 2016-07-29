@@ -1,5 +1,5 @@
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: "acumin-pro-extra-condensed",sans-serif;
   color: black;
 }
 
@@ -82,10 +82,12 @@ ul.topnav li.icon
 }
 h1 {
   text-align: center;
+  font-family: "acumin-pro-extra-condensed",sans-serif;
 }
 
 h2, h4 {
   text-align: center;
+  font-family: "acumin-pro-extra-condensed",sans-serif;
 }
 .main_img {
 	width: 100%;
@@ -146,6 +148,7 @@ h2, h4 {
   background-image: url('http://localhost:3000/images/Libertarian_Party.png');
   background-repeat: no-repeat;
   background-position: center;
+  font-family: "acumin-pro-extra-condensed",sans-serif;
 
 }
 #face {
@@ -159,6 +162,7 @@ h2, h4 {
 }
 .indexpara {
   margin: 10px 15%;
+  font-family: "acumin-pro-extra-condensed",sans-serif;
 }
 #NAME {
   text-align: left;
