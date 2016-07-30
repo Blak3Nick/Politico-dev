@@ -83,6 +83,10 @@ ul.topnav li.icon
     padding: 2px;
     margin-left: 3px;
   }
+  ul.topnav li {
+    padding-left: 2px;
+    margin-left: 2px;
+  }
 }
 .icon {
   padding: 0px;
@@ -109,7 +113,7 @@ h2, h4, h5, h6 {
 .indexpara {
   font-family: "acumin-pro-extra-condensed",sans-serif;
 }
-#NAME {
+.NAME {
   text-align: left;
 }
 @media screen and (max-width:680px) {
