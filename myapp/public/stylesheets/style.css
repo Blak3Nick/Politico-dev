@@ -147,7 +147,11 @@ h2, h4, h5, h6 {
   top:50px;
 
 }
-
+.trianglepic1 {
+  width: 100%;
+  max-height: 100%;
+  margin-top: -4%;
+}
 .trianglepic {
   width: 100%;
   max-height: 100%;
@@ -165,13 +169,14 @@ h2, h4, h5, h6 {
 }
 .footer {
   background-color: black;
-  padding: 5px 0px;
-  margin: 10px 0px 0px 0px;
+  padding: 5px 20px;
+  margin: 10px -12px 0px -12px;
 }
 .footer a {
   text-decoration: none;
   color: white;
   padding: 5px 3px;
+
 }
 .navbar-nav li a {
   color: black;
