@@ -195,3 +195,8 @@ h2, h4, h5, h6 {
 .navbar-default .navbar-nav li a {
     color: black;
 }
+.ContactForm {
+  background-color: #3E6884;
+  height: 50%;
+  width: 70%;
+}
