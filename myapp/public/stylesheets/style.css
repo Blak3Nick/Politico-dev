@@ -89,68 +89,7 @@ h2, h4, h5, h6 {
   text-align: center;
   font-family: "acumin-pro-extra-condensed",sans-serif;
 }
-.main_img {
-	width: 100%;
-	height: 200px;
-	background-image: url('http://localhost:3000/images/CN_logo.png');
-	background-repeat: no-repeat;
-	text-align: center;
-	background-position: center;
-  margin-top: 10px;
-  margin-bottom: -2%;
-}
-.second_img {
-  background-image: url('http://localhost:3000/images/indiana.svg');
-  background-repeat: no-repeat;
-  width: 33%;
-  height: 33%;
-  background-position: right;
-  position: absolute;
-  background-size: contain;
-  top: 5%;
-  right: 5%;
-}
-.item {
-	width: 100%;
-	height: 40%;
-}
-.background_img {
-	width: 35%;
-	height: 100%;
 
-	background-image: url('http://localhost:3000/images/Indiana_Outline.png');
-	background-repeat: no-repeat;
-
-	position: absolute;
-	top: 425px;
-}
-#subscribe_button {
-    position:absolute;
-    transition: .5s ease;
-    top: 391px;
-    right: 5%;
-    background-color: darkblue;
-    color: white;
-    border: none;
-    font-size: 1.4em;
-    padding: 5px 25px;
-    box-shadow: 4px 3px 2px lightgrey;
-}
-.polling_place {
-
-  max-height: 30%;
-  max-width: 30%;
-}
-.maintext {
-  position: absolute;
-  top: 900px;
-  margin: 15px, 30px;
-  background-image: url('http://localhost:3000/images/Libertarian_Party.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  font-family: "acumin-pro-extra-condensed",sans-serif;
-
-}
 #face {
   max-width: 20px;
   max-height: 20px;
@@ -160,14 +99,12 @@ h2, h4, h5, h6 {
   max-width: 20px;
   max-height: 20px;
 }
-/*.indexpara {
-  margin: 10px 15%;
+.indexpara {
   font-family: "acumin-pro-extra-condensed",sans-serif;
 }
 #NAME {
   text-align: left;
-  margin-bottom: 28px;
-}*/
+}
 @media screen and (max-width:680px) {
   .indexpara {
   margin: 10px 5%;
@@ -199,13 +136,7 @@ h2, h4, h5, h6 {
   top:50px;
 
 }
-#logo {
-  max-width: 20%;
-  max-height: 20%;
-  position: absolute;
-  right: 10px;
-  top: 1200px;
-}
+
 .trianglepic {
   width: 100%;
   max-height: 100%;
@@ -218,4 +149,19 @@ h2, h4, h5, h6 {
 #blogpic {
   height: 100px;
   width: 300px;
+}
+.partylogo {
+  background-image: url('http://localhost:3000/images/Libertarian_Party.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer {
+  background-color: black;
+  padding: 5px 0px;
+  margin: 10px 0px 0px 0px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 3px;
 }
