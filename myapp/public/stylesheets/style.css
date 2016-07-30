@@ -162,10 +162,17 @@ h2, h4, h5, h6 {
   left: 50%;
 }
 
-.partylogo {
+.background {
   background-image: url('http://localhost:3000/images/Libertarian_Party.png');
   background-repeat: no-repeat;
   background-position: center;
+  z-index: -1;
+  height: 200px;
+  width: 67px;
+  position: absolute;
+  left: 45%;
+
+
 }
 .footer {
   background-color: black;
