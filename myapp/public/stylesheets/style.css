@@ -22,7 +22,7 @@ ul.topnav {
     text-align: center;
     position: fixed;
     display: inline-block;
-
+    color: black;
 
 
 }
@@ -66,15 +66,18 @@ ul.topnav li.icon
   ul.topnav.responsive li.icon {
   	display: block;
   	padding: 2px;
+    margin-left: 3px;
   }
   ul.topnav.responsive li {
     float: none;
     display: block;
+    margin-left: 3px;
   }
   ul.topnav.responsive li a {
     float: none;
     display: block;
     padding: 2px;
+    margin-left: 3px;
   }
 }
 .icon {
@@ -164,4 +167,10 @@ h2, h4, h5, h6 {
   text-decoration: none;
   color: white;
   padding: 5px 3px;
+}
+.navbar-nav li a {
+  color: black;
+}
+.navbar-default .navbar-nav li a {
+    color: black;
 }
