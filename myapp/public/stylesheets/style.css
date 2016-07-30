@@ -26,6 +26,10 @@ ul.topnav {
 
 
 }
+#blogpic {
+  height: 100px;
+  width: 300px;
+}
 ul.navbar-right {
   position: fixed;
   top: 15px;
@@ -123,6 +127,10 @@ h2, h4, h5, h6 {
   .displaynone{
     display: none;
   }
+  #blogpic {
+    height: 50px;
+    width: 150px;
+  }
 }
 .navbar-default {
   background-color: transparent;
@@ -149,10 +157,7 @@ h2, h4, h5, h6 {
   top: 85%;
   left: 50%;
 }
-#blogpic {
-  height: 100px;
-  width: 300px;
-}
+
 .partylogo {
   background-image: url('http://localhost:3000/images/Libertarian_Party.png');
   background-repeat: no-repeat;
