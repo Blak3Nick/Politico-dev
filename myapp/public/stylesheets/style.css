@@ -16,7 +16,7 @@ nav {
 ul.topnav {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1px;
     overflow: hidden;
     background-color: transparent;
     text-align: center;
@@ -65,7 +65,7 @@ ul.topnav li.icon
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
   	display: block;
-  	padding: 1px;
+  	padding: 2px;
   }
   ul.topnav.responsive li {
     float: none;
@@ -74,7 +74,7 @@ ul.topnav li.icon
   ul.topnav.responsive li a {
     float: none;
     display: block;
-    padding: 1px;
+    padding: 2px;
   }
 }
 .icon {
@@ -160,14 +160,14 @@ h2, h4, h5, h6 {
   max-width: 20px;
   max-height: 20px;
 }
-.indexpara {
+/*.indexpara {
   margin: 10px 15%;
   font-family: "acumin-pro-extra-condensed",sans-serif;
 }
 #NAME {
   text-align: left;
   margin-bottom: 28px;
-}
+}*/
 @media screen and (max-width:680px) {
   .indexpara {
   margin: 10px 5%;
@@ -179,6 +179,9 @@ h2, h4, h5, h6 {
 
   .background_img{
   background-image: none;
+  }
+  .displaynone{
+    display: none;
   }
 }
 .navbar-default {
@@ -203,15 +206,9 @@ h2, h4, h5, h6 {
   right: 10px;
   top: 1200px;
 }
-
-.triangle {
-  width: 100%;
-  height: 80px;
-  position: absolute;
-  top: 700px;
-}
 .trianglepic {
   width: 100%;
+  max-height: 100%;
 }
 .down {
   position: absolute;
