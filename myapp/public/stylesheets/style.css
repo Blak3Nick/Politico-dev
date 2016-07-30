@@ -199,4 +199,13 @@ h2, h4, h5, h6 {
   background-color: #3E6884;
   height: 50%;
   width: 70%;
+  padding: 5% 3%;
+  z-index: 1;
+}
+.form-group-lg {
+  width: 100%;
+}
+.contactlogo {
+  margin-bottom: -55%;
+  z-index: 800;
 }

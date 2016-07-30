@@ -4,32 +4,11 @@ block content
 	div.container-fluid
 		div.row
 			div.col-md-3.col-md-offset-1.col-sm-12
-			div.col-md-2.col-md-offset-8
-				img(src='http://localhost:3000/images/Favicon.svg').displaynone
+			div.col-md-2.col-md-offset-9
+				img(src='http://localhost:3000/images/Favicon.svg').displaynone.contactlogo
 		div.row
-			h1 Contact
-			div.col-lg-offset-1.col-lg-8.ContactForm
-				div.row
-					div.col-md-3
-						br
-				div.row
-					div.col-md-3
-						div.input-group
-							input(type='text' placeholder='First Name').form-control
-				div.row
-					div.col-md-3
-						br
-				div.row
-					div.col-md-3
-						div.input-group
-							input(type='text' placeholder='Last Name').form-control
-				div.row
-					div.col-md-3
-						br
-				div.row
-					div.col-md-5
-						div.input-group
-							input(type='text' placeholder='email').form-control
-				div.row
-					div.col-md-3
-						br
+			form(action="MAILTO:blaken2021@gmail.com" method="post" enctype="text/plain")
+				input(type='text' placeholder='First Name')
+				input(type='text' placeholder='Last Name')
+				input(type='text' placeholder='Email')
+				input(type='submit' value='Submit')
