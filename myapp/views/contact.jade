@@ -1,4 +1,33 @@
 extends layout
 
 block content
-	h1 text
+	div.container-fluid
+		div.row
+			div.col-md-3.col-md-offset-1.col-sm-12
+		div.row
+			div.col-md-1.col-md-offset-10
+				img(src='http://curtnicholson.com/images/Favicon.svg').displaynone.contactlogo
+		div.row
+			div.col-md-8.col-md-offset-2
+				h1.NAME Contact
+				form(action='contact/send' method='POST').formstyle
+					.form-group
+					div.row
+						div.col-md-5
+							input.form-control(type='text' name='firstname' placeholder='First Name')
+							.form-group
+					div.row
+						div.col-md-5
+							input.form-control(type='text' name='lastname' placeholder='Last Name')
+							.form-group
+					div.row
+						div.col-md-5
+							input.form-control(type='email' name='email' placeholder='Email')
+							.form-group
+					div.row
+						div.col-md-9
+							textarea.form-control(name='message' placeholder='Questions or Comments to Curt Nicholson')
+					div.row
+						div.col-md-offset-8.col-md-2
+							button.btn.btn-default.submitbtn(type='submit') Submit
+					
