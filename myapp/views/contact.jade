@@ -7,8 +7,15 @@ block content
 			div.col-md-2.col-md-offset-9
 				img(src='http://localhost:3000/images/Favicon.svg').displaynone.contactlogo
 		div.row
-			form(action="MAILTO:blaken2021@gmail.com" method="post" enctype="text/plain")
-				input(type='text' placeholder='First Name')
-				input(type='text' placeholder='Last Name')
-				input(type='text' placeholder='Email')
-				input(type='submit' value='Submit')
+			form(action='contact/send' method='POST')
+				h1 Contact
+					.form-group
+						input.form-control(type='text' name='firstname' placeholder='First Name')
+					.form-group
+						input.form-control(type='text' name='lastname' placeholder='Last Name')
+					.form-group
+						input.form-control(type='email' name='email' placeholder='Email')
+					.form-group
+						textarea.form-control(name='message' placeholder='Enter comments')
+					button.btn.btn-default(type='submit') Submit
+						
