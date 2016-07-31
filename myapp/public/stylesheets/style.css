@@ -206,6 +206,13 @@ h2, h4, h5, h6 {
   width: 100%;
 }
 .contactlogo {
-  margin-bottom: -55%;
   z-index: 800;
+  margin-bottom: -5%;
+}
+.formstyle {
+  background-color: #3E6884;
+  padding: 5% 3%;
+}
+.submitbtn {
+  margin-top: 2%;
 }
