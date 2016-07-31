@@ -2,28 +2,42 @@ doctype html
 html
   head
     title= title
+    script(src="https://use.typekit.net/fbw6nqf.js")
+    script(try{Typekit.load({ async: true });}catch(e){})
     link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='stylesheet', href="https://fonts.googleapis.com/css?family=Lato")
+    link(rel='stylesheet', href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css")
     script(src="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css")
     script(src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous")
     script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')
     script(src='/javascripts/main.js')
-  header
-    div.main_img
-    div.second_img
-  div.navbar_div 
-    nav(role='navigation')
-      ul.topnav
-        li.first
-          a(href='/issues') Issues  
-        li
-          a(href='/why') Why Liberterian 
-        li
-          a(href='/contact') Contact
-        li 
-          a(href='/support') Support
-        li.icon
-          a(href='javascript: void(0);', onclick='myFunction()') &#9776                                                                 
+    nav(role='navigation').navbar.navbar-default.navbar-right
+      div.container-fluid
+        div.navbar-header
+          ul.nav.navbar-nav.navbar-left
+            li
+              a(href='https://www.facebook.com/curtnicholsonforcouncil' target='_blank')
+                img(src='http://curtnicholson.com/images/facebook-square.png')#face
+            li
+              a(href='https://twitter.com/Nicholsoncurt' target='_blank')
+                img(src='http://curtnicholson.com/images/Twitter-square.png')#twit
+              
+          ul.nav.navbar-nav.navbar-right.topnav
+            li
+              a(href='http://curtnicholson.com') Home
+            //- li
+            //-   a(href='/blog') Blog 
+            li
+              a(href='/issues') Issues
+            li
+              a(href='/contact') Contact
+            //- li
+            //-   a(href='/support') Support
+            li.icon
+              a(href='javascript: void(0);', onclick='myFunction()') &#9776 
+
+
+                                                                
   body
     block content
