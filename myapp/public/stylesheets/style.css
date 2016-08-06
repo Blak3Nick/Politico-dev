@@ -210,7 +210,8 @@ h2, h4, h5, h6 {
   margin-bottom: -5%;
 }
 .formstyle {
-  background-color: #3E6884;
+  background-image: url('http://localhost:3000/images/Contact.png');
+  background-size: cover;
   padding: 5% 3%;
 }
 .submitbtn {
