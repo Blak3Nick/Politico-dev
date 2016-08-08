@@ -3,8 +3,8 @@ extends layout
 block content
   body.container-fluid
     div.row
-      div.col-md-12
-        img(src='http://localhost:3000/images/Curt-splash.png').trianglepic1
+      div.col-md-12.ifmobile
+        //img(src='http://localhost:3000/images/Curt-splash.png').trianglepic1
     div.down.displaynone
       a(href='#jumpto')
         i.fa.fa-angle-double-down.fa-4x
@@ -24,7 +24,7 @@ block content
     p.indexpara#3.div.col-md-7.col-md-offset-2 As your representative on the Clark County Council, Curt plans to bring responsible, accountable, and frugal governance to Clark County. 
   div.row
     div.col-md-2.col-md-offset-9
-      img(src='http://localhost:3000/images/Favicon.svg').displaynone
+      img(src='http://localhost:3000/images/Logo.png').displaynone.logo
   div.row.footer
       div.row
         div.col-md-2.col-sm-12.col-xs-12
