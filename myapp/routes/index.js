@@ -3,67 +3,67 @@ var router = express.Router();
 var nodemailer = require('nodemailer');
 /* Mongoose Routes */
 
-var mongoose = require('mongoose');
-mongoose.connect('localhost:27017/test');
+// var mongoose = require('mongoose');
+// mongoose.connect('localhost:27017/test');
 
-var Schema = mongoose.Schema;
+// var Schema = mongoose.Schema;
 
-var userDataSchema = new Schema({
-	title: {type: String, required: true},
-	content: String,
-	author: String,
-}, {collection: 'user-data'});
+// var userDataSchema = new Schema({
+// 	title: {type: String, required: true},
+// 	content: String,
+// 	author: String,
+// }, {collection: 'user-data'});
 
-var UserData = mongoose.model('UserData', userDataSchema);
-
-
-router.get('/get-data', function(req, res, next) {
-	UserData.find()
-
-		.then(function(doc){
-
-			res.render('blog', {items: doc});
+// var UserData = mongoose.model('UserData', userDataSchema);
 
 
+// router.get('/get-data', function(req, res, next) {
+// 	UserData.find()
 
-		});
+// 		.then(function(doc){
 
-});
+// 			res.render('blog', {items: doc});
 
 
-router.post('/insert', function(req, res, next) {
-	var item = {
-		title: req.body.title,
-		content: req.body.content,
-		author: req.body.author
-	};
-	var data = new UserData(item);
-	data.save();
-	res.redirect('/');
-});
-router.post('/update', function(req, res, next) {
-	var item = {
-		title: req.body.title,
-		content: req.body.content,
-		author: req.body.author
-	};
-	var id = req.body.id(id);
-	UserData.findById(id, function(err, doc){
-		if (err) {
-			console.error('error, emtry not found');
-		}
-		doc.title = req.body.title;
-		doc.content = req.body.content;
-		doc.author = req.body.author;
-		doc.save();
-	});
-	res.redirect('/');
-});
-router.post('/delete', function(req, res, next) {
-	var id = req.body.id(id);
-	UserData.findByIdAndRemove(id).exec();
-	res.redirect('/');
-});
+
+// 		});
+
+// });
+
+
+// router.post('/insert', function(req, res, next) {
+// 	var item = {
+// 		title: req.body.title,
+// 		content: req.body.content,
+// 		author: req.body.author
+// 	};
+// 	var data = new UserData(item);
+// 	data.save();
+// 	res.redirect('/');
+// });
+// router.post('/update', function(req, res, next) {
+// 	var item = {
+// 		title: req.body.title,
+// 		content: req.body.content,
+// 		author: req.body.author
+// 	};
+// 	var id = req.body.id(id);
+// 	UserData.findById(id, function(err, doc){
+// 		if (err) {
+// 			console.error('error, emtry not found');
+// 		}
+// 		doc.title = req.body.title;
+// 		doc.content = req.body.content;
+// 		doc.author = req.body.author;
+// 		doc.save();
+// 	});
+// 	res.redirect('/');
+// });
+// router.post('/delete', function(req, res, next) {
+// 	var id = req.body.id(id);
+// 	UserData.findByIdAndRemove(id).exec();
+// 	res.redirect('/');
+// });
 
 /* End Mongoose Routes */
 
