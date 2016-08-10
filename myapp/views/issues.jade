@@ -2,7 +2,7 @@ extends layout
 
 block content
 	div.container-fluid
-		div.row
+		div.row.maintext
 			img(src='http://localhost:3000/images/Triangle.png').col-md-12.displaynone
 		div.row
 			h1.col-md-4.col-md-offset-2.NAME Why I am a Libertarian
@@ -35,12 +35,12 @@ block content
 			div.row
 				div.col-md-2.col-sm-12.col-xs-12
 					p
-						a(href='/support') Contact
+						a(href='/contact') Contact
 					p
-						a(href='/contact') Bio
+						a(href='#jumpto') Bio
 				div.col-md-2.col-sm-12.col-xs-12
 					p
-						a(href='#jumpto') Find Your Polling Place
+						a(href='https://indianavoters.in.gov/PublicSite/Public/FT1/PublicLookupMain.aspx?Link=Registration' target='blank') Find Your Polling Place
 					p
 						a(href='/blog') Libertarian Party
 				div.col-md-4.col-sm-12.col-xs-12.linkss
