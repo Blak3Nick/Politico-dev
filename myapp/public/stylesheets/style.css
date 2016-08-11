@@ -2,13 +2,22 @@
   font-family: "acumin-pro-extra-condensed",sans-serif;
   color: black;
 }
-
+.ifmobile {
+  background-image: url("http://curtnicholson.com/images/Curt-splash.png");
+  width: 1600px;
+  height: 600px;
+  max-width: 100%;
+  max-height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: -5%;
+}
 nav {
   border: none;
   top: 200px;
   width: 100%;
   position: fixed;
-  top: 15px;
+  top: 0px;
   right: 10px;
   background-color: transparent;
   z-index: 1000;
@@ -32,7 +41,7 @@ ul.topnav {
 }
 ul.navbar-right {
   position: fixed;
-  top: 15px;
+  top: 0px;
   right: 15px;
 }
 .navbar_div {
@@ -50,7 +59,7 @@ ul.topnav li a {
     text-align: center;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 23px;
     background-color: transparent;
 
 }
@@ -66,22 +75,25 @@ ul.topnav li.icon
   }
 }
 @media screen and (max-width:680px) {
-  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive {
+    position: fixed;
+    top: 5px;
+  }
   ul.topnav.responsive li.icon {
   	display: block;
   	padding: 2px;
     margin-left: 3px;
   }
   ul.topnav.responsive li {
-    float: none;
+    top: 5px;
     display: block;
-    margin-left: 3px;
+    margin-right: 3px;
   }
   ul.topnav.responsive li a {
-    float: none;
+    top: 5px;
     display: block;
     padding: 2px;
-    margin-left: 3px;
+    margin-right: 3px;
   }
   ul.topnav li {
     padding-left: 2px;
@@ -102,19 +114,35 @@ h2, h4, h5, h6 {
 }
 
 #face {
-  max-width: 20px;
-  max-height: 20px;
+  max-width: 30px;
+  max-height: 30px;
+  margin-left: 6px;
+}
+#facefoot {
+  max-width: 30px;
+  max-height: 30px;
+  margin-left: 6px;
+  margin-top: -35%;
 }
 
+
 #twit {
-  max-width: 20px;
-  max-height: 20px;
+  max-width: 30px;
+  max-height: 30px;
+  margin-left: 6px;
+}
+#twitfoot {
+  max-width: 30px;
+  max-height: 30px;
+  margin-left: 6px;
+  margin-top: -35%;
 }
 .indexpara {
   font-family: "acumin-pro-extra-condensed",sans-serif;
-}
+  font-size: 1.2em;}
 .NAME {
   text-align: left;
+  font-size: 25px;
 }
 @media screen and (max-width:680px) {
   .indexpara {
@@ -134,6 +162,16 @@ h2, h4, h5, h6 {
   #blogpic {
     height: 50px;
     width: 150px;
+  }
+  .ifmobile {
+    background-image: url("http://curtnicholson.com/images/Mobile.png");
+    width: 800px;
+    height: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -20%;
   }
 }
 .navbar-default {
@@ -163,7 +201,7 @@ h2, h4, h5, h6 {
 .down {
   position: absolute;
   top: 85%;
-  left: 50%;
+  left: 49%;
 }
 
 .background {
@@ -180,7 +218,7 @@ h2, h4, h5, h6 {
 }
 .footer {
   background-color: black;
-  padding: 5px 20px;
+  padding: 5px 20px 0px 20px;
   margin: 10px -12px 0px -12px;
 }
 .footer a {
@@ -210,9 +248,30 @@ h2, h4, h5, h6 {
   margin-bottom: -5%;
 }
 .formstyle {
-  background-color: #3E6884;
+  background-image: url('http://curtnicholson.com/images/Contact.png');
+  background-size: cover;
   padding: 5% 3%;
+  -webkit-box-shadow: 5px 5px 6px 0px #aaa;
+  -moz-box-shadow: 5px 5px 6px 0px #aaa;
+  box-shadow: 5px 5px 6px 0px #aaa;
+  margin-bottom: 20px;
 }
 .submitbtn {
-  margin-top: 2%;
+  margin-top: 20px;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+}
+.top {
+  margin-top: 40px;
+}
+.navbar-header {
+  background-color: transparent;
+}
+.issuepara {
+  font-size: 1.2em;
+}
+.linkss {
+  text-align: center;
 }
