@@ -103,6 +103,7 @@ ul.topnav li.icon
   }
   .twitface {
     display: inline-block;
+    float: left;
   }
 }
 .icon {
