@@ -225,6 +225,7 @@ h2, h4, h5, h6 {
   text-decoration: none;
   color: white;
   padding: 5px 3px;
+  margin: 1px;
 
 }
 .navbar-nav li a {
