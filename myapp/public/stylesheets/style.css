@@ -101,6 +101,9 @@ ul.topnav li.icon
     padding-left: 2px;
     margin-left: 2px;
   }
+  .twitface {
+    display: inline-block;
+  }
 }
 .icon {
   padding: 0px;
