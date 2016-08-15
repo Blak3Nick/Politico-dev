@@ -278,3 +278,6 @@ h2, h4, h5, h6 {
 .linkss {
   text-align: center;
 }
+.rowfix {
+  margin-top: -35%;
+}
