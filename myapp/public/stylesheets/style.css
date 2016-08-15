@@ -88,6 +88,7 @@ ul.topnav li.icon
     top: 5px;
     display: block;
     margin-right: 3px;
+    padding-bottom: 2px;
   }
   ul.topnav.responsive li a {
     top: 5px;
