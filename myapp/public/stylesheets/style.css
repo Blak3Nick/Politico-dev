@@ -139,7 +139,7 @@ h2, h4, h5, h6 {
 }
 .indexpara {
   font-family: "acumin-pro-extra-condensed",sans-serif;
-  font-size: 1.2em;}
+  font-size: 1.4em;}
 .NAME {
   text-align: left;
   font-size: 25px;
@@ -246,6 +246,8 @@ h2, h4, h5, h6 {
 .contactlogo {
   z-index: 800;
   margin-bottom: -5%;
+  max-height: 100%;
+  max-width: 100%;
 }
 .formstyle {
   background-image: url('http://curtnicholson.com/images/Contact.png');
@@ -270,7 +272,7 @@ h2, h4, h5, h6 {
   background-color: transparent;
 }
 .issuepara {
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 .linkss {
   text-align: center;
