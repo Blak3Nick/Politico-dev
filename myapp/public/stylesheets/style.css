@@ -74,6 +74,9 @@ ul.topnav li a:hover
 {background-color: #aaa;}
 ul.topnav li.icon
 {display: none;}
+.twitnav {
+  margin-left: -2%;
+}
 @media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
