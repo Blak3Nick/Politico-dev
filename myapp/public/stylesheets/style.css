@@ -273,7 +273,7 @@ h2, h4, h5, h6 {
   -moz-box-shadow: 5px 5px 6px 0px #aaa;
   box-shadow: 5px 5px 6px 0px #aaa;
   margin-bottom: 20px;
-  height: 500px;
+  height: 60%;
 }
 .submitbtn {
   margin-top: 20px;
