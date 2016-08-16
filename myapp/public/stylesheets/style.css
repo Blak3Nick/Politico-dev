@@ -1,7 +1,7 @@
 * {
   font-family: "acumin-pro-extra-condensed",sans-serif;
   color: black;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 .ifmobile {
   background-image: url("http://curtnicholson.com/images/Curt-splash.png");
@@ -44,6 +44,9 @@ ul.navbar-right {
   position: fixed;
   top: 0px;
   right: 15px;
+}
+ul.navbar-right li {
+  font-size: 1.3em;
 }
 .navbar_div {
   width: 100%;
@@ -150,7 +153,7 @@ h2, h4, h5, h6 {
   font-size: 1.4em;}
 .NAME {
   text-align: left;
-  font-size: 25px;
+  font-size: 1.2em;
 }
 @media screen and (max-width:680px) {
   .indexpara {
@@ -228,6 +231,7 @@ h2, h4, h5, h6 {
   background-color: black;
   padding: 5px 20px 0px 20px;
   margin: 10px -12px 0px -12px;
+  font-size: .9em;
 }
 .footer a {
   text-decoration: none;
