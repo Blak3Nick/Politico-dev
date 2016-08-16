@@ -130,12 +130,12 @@ h2, h4, h5, h6 {
   max-height: 30px;
   margin-left: 6px;
 }
-#facefoot {
+/*#facefoot {
   max-width: 30px;
   max-height: 30px;
   margin-left: 6px;
   margin-top: -10%;
-}
+}*/
 
 
 #twit {
@@ -143,12 +143,12 @@ h2, h4, h5, h6 {
   max-height: 30px;
   margin-left: 6px;
 }
-#twitfoot {
+/*#twitfoot {
   max-width: 30px;
   max-height: 30px;
   margin-left: 6px;
   margin-top: -10%;
-}
+}*/
 .indexpara {
   font-family: "acumin-pro-extra-condensed",sans-serif;
   font-size: 1.4em;}
