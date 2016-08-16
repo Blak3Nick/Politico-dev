@@ -1,6 +1,7 @@
 * {
   font-family: "acumin-pro-extra-condensed",sans-serif;
   color: black;
+  font-size: 1.2em;
 }
 .ifmobile {
   background-image: url("http://curtnicholson.com/images/Curt-splash.png");
