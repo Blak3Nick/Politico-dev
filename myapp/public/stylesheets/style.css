@@ -67,6 +67,9 @@ ul.topnav li a {
     background-color: transparent;
 
 }
+ul.topnav li a .faceface {
+  margin-left: 5px;
+}
 ul.topnav li a:hover
 {background-color: #aaa;}
 ul.topnav li.icon
