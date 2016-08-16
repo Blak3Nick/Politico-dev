@@ -109,6 +109,8 @@ ul.topnav li.icon
   .twitface {
     display: inline-block;
     float: left;
+  }
+  .faceface {
     margin-left: 5px;
   }
 }
