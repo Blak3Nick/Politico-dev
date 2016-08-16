@@ -88,7 +88,7 @@ ul.topnav li.icon
   ul.topnav.responsive {
     position: fixed;
     top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 8px;
   }
   ul.topnav.responsive li.icon {
   	display: block;
