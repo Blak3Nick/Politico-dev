@@ -306,7 +306,7 @@ overflow: auto;
 .familypic {
   max-width: 100%;
   max-height: 75%;
-  -webkit-box-shadow: 11px 10px 0px -4px rgba(0,0,0,0.39);
-  -moz-box-shadow: 11px 10px 0px -4px rgba(0,0,0,0.39);
-  box-shadow: 11px 10px 0px -4px rgba(0,0,0,0.39);
+  -webkit-box-shadow: 0px 0px 0px 17px rgba(0,0,0,0.79);
+  -moz-box-shadow: 0px 0px 0px 17px rgba(0,0,0,0.79);
+  box-shadow: 0px 0px 0px 17px rgba(0,0,0,0.79);
 }
