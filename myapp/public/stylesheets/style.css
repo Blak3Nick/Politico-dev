@@ -284,6 +284,7 @@ h2, h4, h5, h6 {
 }
 .submitbtn {
   margin-top: 20px;
+  font-size: 1.1em;
 }
 .logo {
   width: 100%;
@@ -316,5 +317,5 @@ overflow: auto;
   margin-bottom: 10px;
 }
 .form-control {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
