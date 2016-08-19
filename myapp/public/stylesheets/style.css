@@ -315,3 +315,6 @@ overflow: auto;
   margin-top: -3%;
   margin-bottom: 10px;
 }
+.form-control {
+  font-size: 1.2em;
+}
