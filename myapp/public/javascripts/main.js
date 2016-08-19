@@ -15,7 +15,7 @@ $(document).ready(function () {
             if (scroll_start > offset.top) {
                 $(topnav).css('background-color', 'rgba(355,355,355,.99)');
                 $(topnav).css('width', '100%');
-                $(topnav).css('float', 'right');
+                $(items).css('float', 'right');
 
             } else {
                 $(topnav).css('background-color', 'transparent');
